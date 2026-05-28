@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | She Can Foundation</title>
+    <meta name="description" content="Browse photos and moments of impact from She Can Foundation's campaigns and workshops." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+
+    <!-- ===================== CURSOR ===================== -->
+    <div id="cursor" class="custom-cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo" id="nav-logo">
+          <img src="/images/logo.jpg" alt="She Can Foundation Logo" class="logo-img" />
+          <span class="logo-text">She Can Foundation</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="internships.html" class="nav-link">Internships</a></li>
+          <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="donate.html" class="nav-btn">
+          <span>Donate Now</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================== MOBILE MENU ===================== -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-content">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li><a href="internships.html" class="mobile-nav-link">Internships</a></li>
+          <li><a href="gallery.html" class="mobile-nav-link active">Gallery</a></li>
+          <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="donate.html" class="mobile-donate-btn">
+          <span>Donate Now</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===================== PAGE HERO ===================== -->
+    <section class="section page-hero">
+      <div class="container">
+        <div class="section-label center-label" data-animate="fade-up">
+          <span class="label-line"></span>
+          Moments of Impact
+          <span class="label-line"></span>
+        </div>
+        <h1 class="section-title font-heading center-text" style="text-align: center;" data-animate="fade-up" data-delay="100">Our <span class="text-accent">Gallery</span></h1>
+        <p class="section-subtitle center-text" style="text-align: center; margin: 0 auto;" data-animate="fade-up" data-delay="200">
+          A visual archive of the lives we touch and the communities we build together.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY GRID ===================== -->
+    <section class="section gallery-expanded">
+      <div class="container">
+        <div class="gallery-grid" data-animate="fade-up" data-delay="100">
+          <!-- Item 1 -->
+          <div class="gallery-item large">
+            <img src="/images/instagram-new-1.webp" alt="Food distribution to elderly women" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Support</span>
+              <h4>Kindness & Nourishment</h4>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="gallery-item">
+            <img src="/images/instagram-new-2.webp" alt="Meals for underprivileged children" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Nutrition</span>
+              <h4>Nourishing Dreams</h4>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="gallery-item">
+            <img src="/images/instagram-new-3.jpg" alt="International Women's Day mentorship" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Advocacy</span>
+              <h4>International Women's Day</h4>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="gallery-item tall">
+            <img src="/images/instagram-new-4.webp" alt="Food and ration distribution" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Nourishment</span>
+              <h4>Hope In Every Meal</h4>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="gallery-item">
+            <img src="/images/instagram-new-5.webp" alt="Feeding and caring for street dogs" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Compassion</span>
+              <h4>Animal Welfare</h4>
+            </div>
+          </div>
+          <!-- Item 6 -->
+          <div class="gallery-item">
+            <img src="/images/instagram-new-6.webp" alt="Sanitary pad distribution to women" loading="lazy" />
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Dignity</span>
+              <h4>Sanitary Pad Distribution</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <img src="/images/logo.jpg" alt="She Can Foundation Logo" class="logo-img" />
+              <span class="logo-text">She Can Foundation</span>
+            </a>
+            <p class="footer-desc">We are She Can Foundation, a non-governmental organization registered under the Indian Society Act, 1860, dedicated to empowering women and creating a more equitable society.</p>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="internships.html">Internships</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Initiatives</h4>
+            <ul>
+              <li>Menstrual Dignity</li>
+              <li>Women's Empowerment</li>
+              <li>Dignity Kits</li>
+              <li>Advocacy & Dialogue</li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Newsletter</h4>
+            <p class="newsletter-desc">Subscribe to our newsletter for updates on our impact and stories of change.</p>
+            <form class="newsletter-form" id="newsletter-form">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit" aria-label="Subscribe">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 She Can Foundation. All rights reserved. Made with ❤️ for a better world.</p>
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

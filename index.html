@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>She Can Foundation | NGO Registered under Indian Society Act</title>
+    <meta name="description" content="She Can Foundation: Empowering women and transforming lives. Join us in making a difference through our registered NGO under the Indian Society Act." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+
+    <!-- ===================== CURSOR ===================== -->
+    <div id="cursor" class="custom-cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo" id="nav-logo">
+          <img src="/images/logo.jpg" alt="She Can Foundation Logo" class="logo-img" />
+          <span class="logo-text">She Can Foundation</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="internships.html" class="nav-link">Internships</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="donate.html" class="nav-btn">
+          <span>Donate Now</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================== MOBILE MENU ===================== -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-menu-content">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li><a href="internships.html" class="mobile-nav-link">Internships</a></li>
+          <li><a href="gallery.html" class="mobile-nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <a href="donate.html" class="mobile-donate-btn">
+          <span>Donate Now</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        
+        <!-- Collage wrapper -->
+        <div class="hero-collage">
+          <!-- Central Title -->
+          <div class="hero-title-wrapper" data-animate="fade-up">
+            <h1 class="hero-title long-title">Together We Can <span class="text-accent">Change</span><span class="hero-title-world">The World</span></h1>
+          </div>
+
+          <!-- Floating Image Cards -->
+          <!-- Card 1: Top Left -->
+          <div class="collage-card card-top-left" data-animate="fade-up" data-delay="100">
+            <img src="/images/about-shecan.jpg" alt="Empowering Women" />
+            <span class="collage-badge badge-purple">Empower</span>
+          </div>
+
+          <!-- Card 2: Top Right -->
+          <div class="collage-card card-top-right" data-animate="fade-up" data-delay="200">
+            <img src="/images/gallery1.png" alt="Education" />
+            <span class="collage-badge badge-pink">Dignity</span>
+          </div>
+
+          <!-- Card 3: Middle Left -->
+          <div class="collage-card card-mid-left" data-animate="fade-up" data-delay="300">
+            <img src="/images/team-shecan.png" alt="Community Support" />
+            <span class="collage-badge badge-green">Community</span>
+          </div>
+
+          <!-- Card 4: Middle Right -->
+          <div class="collage-card card-mid-right" data-animate="fade-up" data-delay="400">
+            <img src="/images/gallery4.png" alt="Menstrual Hygiene" />
+            <span class="collage-badge badge-yellow">Education</span>
+          </div>
+
+        </div>
+
+        <!-- Mission text & buttons below the collage -->
+        <div class="hero-footer" data-animate="fade-up" data-delay="600">
+          <p class="hero-subtitle">
+            We don't ask for much, just help us with what you can - Be it Money, Skill or Your Time.
+          </p>
+          <div class="hero-btns">
+            <a href="donate.html" class="btn btn-primary">
+              <span>Donate Now</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </a>
+            <a href="about.html" class="btn btn-outline">
+              <span>Learn More</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about">
+      <div class="container">
+        
+        <div class="section-header center" data-animate="fade-up">
+          <div class="section-label center-label">
+            <span class="label-line"></span>
+            About She Can Foundation
+            <span class="label-line"></span>
+          </div>
+          <h2 class="section-title font-heading text-accent">Global Vision, Local Action</h2>
+          <p class="section-subtitle">
+            We are She Can Foundation, a non-governmental organization registered under the Indian Society Act, 1860, dedicated to empowering women and creating a more equitable society.
+          </p>
+        </div>
+
+        <!-- Tilted Post-it / Sticky notes row -->
+        <div class="sticky-notes-grid">
+          <!-- Sticky 1: Lavender -->
+          <div class="sticky-note note-purple" data-animate="fade-up" data-delay="0">
+            <div class="note-image">
+              <img src="/images/team-shecan.png" alt="Women empowerment community work" loading="lazy" />
+            </div>
+            <div class="note-pin"></div>
+            <h3 class="note-title">Empowering Women</h3>
+            <p class="note-desc">Providing vocational training, resources, and mentorship to help women achieve financial independence.</p>
+          </div>
+
+          <!-- Sticky 2: Peach -->
+          <div class="sticky-note note-orange" data-animate="fade-up" data-delay="100">
+            <div class="note-image">
+              <img src="/images/gallery1.png" alt="Education support for girls" loading="lazy" />
+            </div>
+            <div class="note-pin"></div>
+            <h3 class="note-title">Education Support</h3>
+            <p class="note-desc">Ensuring girls stay in school through active menstrual hygiene campaigns and supply distribution.</p>
+          </div>
+
+          <!-- Sticky 3: Mint Green -->
+          <div class="sticky-note note-green" data-animate="fade-up" data-delay="200">
+            <div class="note-image">
+              <img src="/images/gallery2.png" alt="Healthcare awareness initiative" loading="lazy" />
+            </div>
+            <div class="note-pin"></div>
+            <h3 class="note-title">Healthcare Awareness</h3>
+            <p class="note-desc">Promoting health and hygiene through awareness workshops and the distribution of dignity kits.</p>
+          </div>
+
+          <!-- Sticky 4: Pink -->
+          <div class="sticky-note note-pink" data-animate="fade-up" data-delay="300">
+            <div class="note-image">
+              <img src="/images/gallery4.png" alt="Community development workshop" loading="lazy" />
+            </div>
+            <div class="note-pin"></div>
+            <h3 class="note-title">Community Development</h3>
+            <p class="note-desc">Breaking down systemic barriers and building equal opportunity through active community advocacy.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== OUR STORY ===================== -->
+    <!-- ===================== ABOUT PREVIEW ===================== -->
+    <section class="section about-preview">
+      <div class="container">
+        <div class="about-preview-grid">
+          <div class="about-preview-content" data-animate="fade-left">
+            <div class="section-label">
+              <span class="label-line"></span>
+              Who We Are & Why We Exist
+            </div>
+            <h2 class="section-title">Empowering Women, <span class="text-accent">Transforming Communities</span></h2>
+            <p class="preview-text">
+              She Can Foundation is a registered non-governmental organization dedicated to breaking barriers and creating a more equitable society. We believe that every woman deserves the opportunity to thrive, regardless of her background or circumstances.
+            </p>
+            <p class="preview-text">
+              By working closely with local communities and distributing essential resources like menstrual hygiene kits, we support education and restore dignity to underprivileged girls and women.
+            </p>
+            <a href="about.html" class="read-more-link">Read Full Story &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section cta">
+      <div class="cta-bg"></div>
+      <div class="container">
+        <div class="cta-content" data-animate="fade-up">
+          <h2 class="cta-title">Ready to Make an <span class="text-accent-2">Impact</span>?</h2>
+          <p class="cta-text">Join us in creating a world where every woman has the opportunity to thrive. Your support, no matter the size, helps keep a girl in school and restores her dignity.</p>
+          <div class="cta-btns">
+            <a href="donate.html" class="btn btn-primary btn-lg">
+              <span>Donate</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg">
+              <span>Volunteer</span>
+            </a>
+            <a href="contact.html" class="btn btn-outline-light btn-lg">
+              <span>Partner With Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="footer-logo">
+              <img src="/images/logo.jpg" alt="She Can Foundation Logo" class="logo-img" />
+              <span class="logo-text">She Can Foundation</span>
+            </a>
+            <p class="footer-desc">We are She Can Foundation, a non-governmental organization registered under the Indian Society Act, 1860, dedicated to empowering women and creating a more equitable society.</p>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="internships.html">Internships</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Initiatives</h4>
+            <ul>
+              <li>Menstrual Dignity</li>
+              <li>Women's Empowerment</li>
+              <li>Dignity Kits</li>
+              <li>Advocacy & Dialogue</li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Newsletter</h4>
+            <p class="newsletter-desc">Subscribe to our newsletter for updates on our impact and stories of change.</p>
+            <form class="newsletter-form" id="newsletter-form">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit" aria-label="Subscribe">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 She Can Foundation. All rights reserved. Made with ❤️ for a better world.</p>
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
