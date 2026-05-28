@@ -102,8 +102,10 @@ she-can-foundation/
 ├── vite.config.ts          # Vite bundling parameters
 ├── tsconfig.json           # Compiler rules
 └── README.md               # Documentation
-```
 
+
+```
+live link : https://shecanfoundation1.vercel.app/
 ---
 
 ## 🤝 Socials & NGO Details
